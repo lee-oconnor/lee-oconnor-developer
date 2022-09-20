@@ -265,7 +265,7 @@ i {
     color: #152a3e;
     font-family: "Lekton", sans-serif;
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     padding: 30px;
     justify-content: center;
     align-items: center;
@@ -341,17 +341,25 @@ i {
     -moz-appearance: none;
     appearance: none;
   }
+  ul {
+    margin-top: 0px;
+  }
 
   .description-div {
     width: 100%;
   }
 
-  ul {
-    margin-top: 0px;
+  .about-section {
+    flex-flow: row wrap;
+  }
+
+  .about-paragraph {
+    width: 50%;
   }
 
   .headshot {
-    width: 50%;
+    width: 30%;
+    padding-left: 75px;
   }
 }
 
