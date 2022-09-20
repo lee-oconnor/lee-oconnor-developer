@@ -118,9 +118,12 @@ p {
   font-weight: 300;
 }
 
-nav a {
-  list-style-type: none;
+nav li {
   padding: 20px;
+  list-style-type: none;
+}
+
+nav li a {
   text-decoration: none;
   color: #152a3e;
 }
@@ -135,17 +138,12 @@ li:hover {
   padding: 20px;
 }
 
-.projects-title {
-  font-family: "Lexend Tera", sans-serif;
-}
-
 .projects-section {
   background-color: #fff;
   margin: 0px;
 }
-
-.about-section {
-  background-color: #f7e8e8;
+.projects-title {
+  font-family: "Lexend Tera", sans-serif;
 }
 
 .project-img {
@@ -153,13 +151,16 @@ li:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
-.skills-section > h3 {
-  font-family: "Lexend Tera", sans-serif;
+.description-title {
+  margin-top: 20px;
 }
 
-h3 {
-  text-align: center;
-  margin-top: 0px;
+.about-section {
+  background-color: #f7e8e8;
+}
+
+.skills-section > h2 {
+  font-family: "Lexend Tera", sans-serif;
 }
 
 .skills-title,
@@ -220,6 +221,10 @@ i {
 
   nav > a {
     padding: 0;
+    list-style-type: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 
   ul {
@@ -228,21 +233,6 @@ i {
 
   p {
     font-size: 1em;
-  }
-
-  .about-section {
-    color: #152a3e;
-    font-family: "Lekton", sans-serif;
-    display: flex;
-    flex-flow: column;
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-  }
-
-  .headshot {
-    width: 60%;
   }
 
   .projects-section {
@@ -268,12 +258,22 @@ i {
     align-items: flex-start;
   }
 
-  .description-div > h2 {
-    width: 100%;
-    margin-top: 30px;
+  .about-header {
+    background-color: #fff;
+  }
+  .about-section {
+    color: #152a3e;
+    font-family: "Lekton", sans-serif;
     display: flex;
+    flex-flow: column;
+    padding: 30px;
     justify-content: center;
     align-items: center;
+    margin: 0px;
+  }
+
+  .headshot {
+    width: 60%;
   }
 
   .skills-section {
@@ -335,8 +335,15 @@ i {
     flex-direction: column;
   }
 
-  .description-div > p {
-    margin-top: 0px;
+  nav li {
+    list-style-type: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .description-div {
+    width: 100%;
   }
 
   ul {
@@ -383,6 +390,32 @@ i {
     align-items: center;
   }
 
+  .projects-section {
+    margin: 0px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .projects-title {
+    width: 100%;
+    flex-flow: row wrap;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .project-image {
+    width: 25%;
+    margin-top: 50px;
+  }
+
+  .description-title {
+    align-self: flex-start;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
   .about-section {
     display: flex;
     flex-flow: row;
@@ -402,25 +435,9 @@ i {
 
   .headshot {
     width: 30%;
-  }
-
-  .projects-title {
-    width: 100%;
-    flex-flow: row wrap;
-    text-align: center;
-    padding-top: 20px;
-  }
-
-  .projects-section {
-    margin: 0px;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .project-image {
-    width: 25%;
-    margin-top: 50px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 }
 
