@@ -191,9 +191,18 @@ i {
   color: #e9b14c;
 }
 
-.contact-phone {
+.contact-phone a {
   list-style-type: none;
   text-decoration: none;
+  color: #152a3e;
+  font-size: 1.4em;
+}
+
+#contact-email {
+  list-style-type: none;
+  text-decoration: none;
+  color: #152a3e;
+  font-size: 1.4em;
 }
 
 /* ==========================================================================
