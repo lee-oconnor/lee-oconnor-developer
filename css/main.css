@@ -359,6 +359,22 @@ i {
     margin-top: 0px;
   }
 
+  .projects-section {
+    flex-flow: row wrap;
+    align-items: flex-start;
+  }
+
+  .projects-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .project-image {
+    width: 40%;
+    /* flex-direction: column; */
+  }
   .description-div {
     width: 100%;
   }
