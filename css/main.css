@@ -391,6 +391,28 @@ i {
     width: 30%;
     padding-left: 50px;
   }
+
+  .skills,
+  .tools {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-col,
+  .tools-col {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px;
+    width: 25%;
+    align-items: center;
+  }
+
+  .skill,
+  .tool {
+    font-family: "Lekton", sans-serif;
+  }
 }
 
 /****************DESKTOP************************/
@@ -476,6 +498,40 @@ i {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+  }
+
+  .skill,
+  .tool {
+    font-family: "Lexend Tera", sans-serif;
+  }
+  .skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-col {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px;
+    width: 25%;
+    align-items: center;
+  }
+
+  .tools {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tools-col {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px;
+    width: 25%;
+    align-items: center;
   }
 }
 
