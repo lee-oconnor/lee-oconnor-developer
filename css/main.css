@@ -500,10 +500,6 @@ i {
     appearance: none;
   }
 
-  .skill,
-  .tool {
-    font-family: "Lexend Tera", sans-serif;
-  }
   .skills {
     display: flex;
     flex-flow: row wrap;
