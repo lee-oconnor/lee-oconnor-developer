@@ -142,6 +142,7 @@ li:hover {
   background-color: #fff;
   margin: 0px;
 }
+
 .projects-title {
   font-family: "Lexend Tera", sans-serif;
 }
@@ -149,6 +150,17 @@ li:hover {
 .project-img {
   width: 100%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.description-div > a {
+  color: #152a3e;
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.description-div > a:hover {
+  color: #e9b14c;
 }
 
 .description-title {
