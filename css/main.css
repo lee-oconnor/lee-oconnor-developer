@@ -133,7 +133,13 @@ li:hover {
 }
 
 .ux-portfolio > span {
+  text-decoration: none;
   color: #152a3e;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
 }
 
 .ux-portfolio > a {
