@@ -132,6 +132,16 @@ li:hover {
   background-color: #e9b14c;
 }
 
+.ux-portfolio {
+  color: #152a3e;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.ux-portfolio:hover {
+  background-color: #e9b14c;
+}
+
 .intro-header {
   font-family: "Lexend Tera", sans-serif;
   text-align: center;
