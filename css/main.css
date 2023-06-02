@@ -139,8 +139,9 @@ li:hover {
 }
 
 .projects-section {
+  display: flex;
   background-color: #fff;
-  margin: 0px;
+  margin: 20px;
 }
 
 .projects-title {
