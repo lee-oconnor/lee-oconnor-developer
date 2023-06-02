@@ -132,9 +132,11 @@ li:hover {
   background-color: #e9b14c;
 }
 
-.ux-portfolio {
+.ux-portfolio > span {
   color: #152a3e;
-  list-style-type: none;
+}
+
+.ux-portfolio > a {
   text-decoration: none;
 }
 
